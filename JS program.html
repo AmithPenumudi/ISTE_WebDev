@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script text="JAVASCRIPT"></script>
+</head>
+<body>
+    <h1>
+        JAVASCRIPT
+    </h1>
+   
+     <script>
+     
+         var choice=parseInt(prompt("Welcome to Calculator\n 1 for Addition\n 2 for Subtraction\n 3 for Multiplication\n 4 for Division\n 5 for Exponetiation \n Enter your choice:"));
+       
+    if(choice==1){
+       
+        
+         num_1=parseFloat(prompt ("Enter the value of first number:"));
+         
+         num_2=parseFloat(prompt("Enter the value of second number"));
+         
+         var add=num_1+num_2
+       console.log("Addition of the given two number is:")
+              console.log(add)
+    }
+       else if(choice==2){
+             
+         num_1=parseFloat(prompt ("Enter the value of first number:"));
+          num_2=parseFloat(prompt("Enter the value of second number"));
+           
+        var sub=num_1-num_2
+           console.log("Subtraction of the given two number is:");
+       console.log(sub);
+       }else if(choice==3){
+        num_1=parseFloat(prompt ("Enter the value of first number:"));
+          num_2=parseFloat(prompt("Enter the value of second number"));
+
+        var mul=num_1*num_2
+           console.log("Multiplication of the given two number is:")
+       console.log(mul)
+       }else if(choice==4){
+        num_1=parseFloat(prompt ("Enter the value of first number:"));
+          num_2=parseFloat(prompt("Enter the value of second number")); 
+        var div=num_1/num_2
+           console.log("Division of the given two number is:")
+       console.log(div)
+       }else if(choice==5){
+        num_1=parseFloat(prompt ("Enter the value of first number:"));
+          num_2=parseFloat(prompt("Enter the value of second number"));  
+        
+        var exp=num_1**num_2
+           console.log("Exponentiation of the given two number is:");
+       console.log(exp);
+       }
+       else{
+           console.log("Error has been Enterd \n Try Again!!")
+       }
+
+
+ </script>
+</body>
+</html>
