@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h2>Use JS to sort this array
+    alphabetically as well as numerically (both ascending and descending order).</h2>
+  <script>
+    var ar=[21,2, 141,25,21,1,45,525,,45,1,2,5,4,1,23,36,9];
+ var len=ar.length;
+ console.log("Array elements in ascending order");
+ ar.sort(function(a, b){
+  return a - b;
+}); 
+  console.log(ar);
+  console.log("Array elements in descending order");
+ ar.sort(function(a, b){
+  return b-a;
+}); 
+  console.log(ar);
+  console.log("Array elements in alphabetically order");
+ ar.sort()
+  console.log(ar);
+   </script>
+  
+  
+</body>
+</html>
+
+
+
+
