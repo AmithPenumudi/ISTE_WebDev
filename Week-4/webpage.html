@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISTE Sign Up</title>
+</head>
+<style>
+    
+    header{
+         text-align: center;
+         font-size: 50px;
+         color: blue;
+    }
+    .d2{
+         text-align: right;
+         background-color: black;
+        height: 50px;
+    }
+    p.d1{
+        font-size:20px;
+
+    }
+   .d1 a{
+        color: white;
+        float: right ;
+        display: inline;
+        padding-top: 15px ; 
+        padding-right: 20px;
+        }
+    a:hover{
+        color:gray;
+    }
+    
+</style>
+<body>
+
+    <header>ISTE Sign Up</header>
+    <header>
+    <nav>
+        <div class="d2" >
+        
+        <img src="logo.png" alt="iste" style="float: left;height: 50px;">
+        <p class="d1" >
+            <a  href="https://iste.nitk.ac.in/#/team/" target="_blank" title="Blog" >Blog</a></p>
+        <p class="d1" >
+            <a  href="https://iste.nitk.ac.in/#/team/" target="_blank" title="Our Team" > Our Team</a></p>
+        <p class="d1" >
+            <a  href="https://iste.nitk.ac.in/#/event/" target="_blank" title="Events" > Events</a></p>
+        <p class="d1" >
+        <a  href="https://iste.nitk.ac.in/#/" target="_blank" title="ISTE Nitk" > ISTE</a></p>
+       
+        </div>
+    </nav>
+    </header>
+    <form action="">
+        <fieldset>
+            <legend style="font-size: 25px;">Sign Up</legend>
+            <p>
+            <label for="salutation" style="font-size: 20px;">
+                <input type="radio" name="man" value="Mr" required>
+                Mr
+            </label>
+            <label for="salutation" style="font-size: 20px;">
+                <input type="radio" name="women" value="Mrs">
+                Mrs
+            </label>
+            <label for="salutation" style="font-size: 20px;">
+                <input type="radio" name="man" value="Miss">
+                Miss
+            </label>
+            </p>
+            <br>
+            <label for="Firstname" style="font-size: 20px; " >
+                First Name:
+                <input type="text" name="name" size="50" maxlength="150" placeholder="Your Name" style="background-color:lightskyblue;" required>
+            </label>
+            <br/><br/>
+            <label  for="Lastname" style="font-size: 20px;">
+                Lastname:
+                <input type="text" name="name" size="50" maxlength="150" placeholder="Your Last Name"  style="background-color:lightskyblue;" required>
+            </label>
+            <br/><br/>
+            <label for="email" style="font-size: 20px;">
+                Email address:
+                <input type="email" name="email" size="50" maxlength="150" placeholder="Email"  style="background-color:lightskyblue;" required>
+            </label>
+            <br/><br/>
+            <label for="phone number" style="font-size: 20px;">
+                Phone number:
+                <input type="number" name="Phone number" size="10" maxlength="10" placeholder="Number"  style="background-color:lightskyblue;" required>
+            </label>
+            <br/><br/>
+            <label for="password" style="font-size: 20px;">
+                Password:
+                <input type="password" name="password" size="50" maxlength="150" placeholder="Enter password"  style="background-color:lightskyblue;" required >
+            </label>
+            <br/><br/>
+            <label for="password" style="font-size: 20px;">
+                Confirm Your Password:
+                <input type="password" name="confirm password" size="50" maxlength="150" placeholder="Re-enter Passwords"  style="background-color:lightskyblue;"  required>
+            </label>
+            <br/><br/>
+            <label for="country" style="font-size: 20px;">
+             Country:
+            </label>
+            <select name="country" required  style="background-color:lightskyblue;">
+                <option value="Afganistan">Afghanistan</option>
+                <option value="Belarus">Belarus</option>
+                <option value="Bhutan">Bhutan</option>
+                <option value="China">China</option>
+                <option value="Germany">Germany</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+             </select>
+            <br/><br/>
+            <label for="terms" style="font-size: 20px;">
+            <input type="checkbox" name="terms"required;>
+              I agree to the terms and conditions
+            </label>
+            <br/><br/>
+            <input type="submit" value="Sign Up" style="font-size: 20px; background-color: skyblue; border-radius: 20px;" >
+            <input type="reset" name="reset" style="font-size: 20px; background-color: lightgreen; border-radius: 10px;">
+            <br/><br/>
+        </fieldset>
+    </form>
+    <footer style="background-color: black; margin-top: 190px; height: 50px;position: fixed;z-index: 12;bottom: 0;width: 100%;">
+        <p style="color: white; text-align: center;">
+        All Rights are reserved by ISTE cryte
+        </p>
+    </footer>
+    
+
+
+</body>
+</html>

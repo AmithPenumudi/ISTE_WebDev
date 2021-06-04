@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+        const color={};
+        const turquoise={
+            red:64,
+            green:224,
+            blue:208,
+            rgb: function(){
+                console.log("rgb("+this.red+","+this.green+","+this.blue+")")
+            },
+             hex: function() 
+            { 
+                console.log("#" + ((1<<24) + (this.red<<16) + (this.green<<8) + this.blue).toString(16).slice(1))
+             }
+        };
+        const purple={
+            red:101,
+            green:31,
+            blue:255,
+            rgb: function(){
+                console.log("rgb("+this.red+","+this.green+","+this.blue+")")
+
+            },
+            hex: function() {
+                console.log("#" + ((1<<24) + (this.red<<16) + (this.green<<8) + this.blue).toString(16).slice(1)) }
+
+        }
+    </script>
+</body>
+</html>
